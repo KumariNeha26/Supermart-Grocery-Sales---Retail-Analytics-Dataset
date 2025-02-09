@@ -1,14 +1,33 @@
-Supermart Grocery Sales - Retail Analytics Dataset
+Supermart Grocery Sales - Retail Analytics
 
-Project Overview
-This project explores grocery sales data from a supermarket to predict future sales trends. It involves data preprocessing, exploratory data analysis (EDA), and machine learning modeling to identify key sales drivers and improve forecasting accuracy.
+This project analyzes grocery sales data from a supermarket to predict sales trends based on category, region, discount, and profit margins. It involves data preprocessing, exploratory analysis, machine learning model training, and evaluation.
 
-Key Steps
-Data Preprocessing: Handle missing values, duplicates, and encode categorical features.
-EDA: Visualize trends, analyze sales distribution, and examine correlations.
-Feature Selection & Model Building: Select relevant features, scale data, and split it for training.
-Model Training: Implement Linear Regression to predict sales.
-Evaluation: Assess model performance using MSE and R-squared metrics.
-Visualization & Insights: Compare actual vs. predicted sales and summarize key findings.
+Project Steps
+Data Import & Preprocessing:
+  Load and clean the dataset.
+  Handle missing values, duplicates, and encode categorical variables.
 
-This project provides data-driven insights to enhance retail sales strategies and improve demand forecasting.
+Exploratory Data Analysis (EDA):
+  Visualize sales trends, regional distribution, and discounts.
+  Identify correlations between sales and key factors.
+
+Feature Engineering & Model Building:
+  Select relevant features for sales prediction.
+  Train a Linear Regression model to forecast future sales.
+
+Model Evaluation:
+  Assess model accuracy using MSE (Mean Squared Error) and R-squared scores.
+
+Results Visualization & Conclusion:
+  Compare actual vs predicted sales through charts and graphs.
+  Provide insights to optimize pricing, discounts, and inventory management.
+
+Technologies Used
+Python
+Pandas, NumPy (Data Handling)
+Matplotlib, Seaborn (Visualization)
+Scikit-Learn (Machine Learning)
+
+Conclusion
+This project provides data-driven sales insights by analyzing supermarket transaction data, enabling better business decisions, demand forecasting, and revenue optimization.
+
